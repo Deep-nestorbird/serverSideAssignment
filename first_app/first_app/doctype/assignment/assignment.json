@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-10 18:36:52.020337",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "web_section",
+  "first_name",
+  "last_name",
+  "full_name",
+  "agree",
+  "customer",
+  "from_lead",
+  "account_manager",
+  "customer_group",
+  "currency",
+  "price_list",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "web_section",
+   "fieldtype": "Section Break",
+   "label": "web"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "agree",
+   "fieldtype": "Check",
+   "label": "Agree"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "from_lead",
+   "fieldtype": "Read Only",
+   "label": "From Lead"
+  },
+  {
+   "fieldname": "account_manager",
+   "fieldtype": "Read Only",
+   "label": "Account Manager"
+  },
+  {
+   "fieldname": "customer_group",
+   "fieldtype": "Read Only",
+   "label": "Customer Group"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Read Only",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "price_list",
+   "fieldtype": "Read Only",
+   "label": "Price List"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Assignment",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-05-13 12:28:14.760363",
+ "modified_by": "Administrator",
+ "module": "First App",
+ "name": "Assignment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

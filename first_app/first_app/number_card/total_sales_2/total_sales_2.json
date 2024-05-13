@@ -1,0 +1,21 @@
+{
+ "creation": "2024-05-13 14:42:47.172080",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "null",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Total Sales",
+ "method": "/home/erp_user/frappe-bench_v15/apps/first_app/first_app/first_app/Custom/dashboard.py",
+ "modified": "2024-05-13 14:51:13.058273",
+ "modified_by": "Administrator",
+ "module": "First App",
+ "name": "Total Sales-2",
+ "owner": "Administrator",
+ "report_function": "Sum",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Custom"
+}
