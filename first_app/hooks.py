@@ -1,3 +1,5 @@
+from __future__ import unicode_literals
+import frappe
 app_name = "first_app"
 app_title = "First App"
 app_publisher = "Deep Prakash Srivastava"
@@ -226,4 +228,10 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+override_doctype_class = {
+	"Item Price": "first_app.OverrideClass.itemPrice.itemPrice"
+}
 
+
+
+    
